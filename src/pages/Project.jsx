@@ -45,7 +45,7 @@ The site is fully responsive, optimized for performance, and serves as a central
     link: "https://i.postimg.cc/LXftBH04/Screenshot-2025-10-07-at-11-48-29-AM.png",
     color: "#ffffff",
     githubLink: "https://github.com/parim2024/portofolio",
-    liveLink: "https://sorting-visualizer-r8pz-awfmb1g5h-paridhi-mittals-projects.vercel.app/",
+    liveLink: "https://portofolio-gamma-beryl.vercel.app/",
   },
 
 ];
