@@ -107,7 +107,7 @@ const Hero = () => {
 
             <div className="flex flex-wrap gap-4">
              <a
-          href="https://drive.google.com/file/d/1GhHuZuIGbbN7GphuNPuHp3WV_eCqwKml/view"
+            href="https://qrr.to/4d121872"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 bg-cyan-500 hover:bg-cyan-400 text-black font-semibold rounded-full transition-transform transform hover:scale-105 shadow-lg"
