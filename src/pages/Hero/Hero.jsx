@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import meImage from './../../assets/me_image.jpeg';
+//import meImage from './../../assets/me_image.jpeg';
 
 // Animated Background Grid
 // Animated Grid without background bubbles
@@ -97,8 +97,7 @@ const Hero = () => {
 
             <div className="bg-slate-900/50 backdrop-blur-sm border border-cyan-500/20 rounded-2xl px-6 py-3 inline-block">
               <p className="text-lg sm:text-xl text-gray-300">
-            Passionate about building scalable web applications 🚀 | Solving complex problems with DSA 💡 | MERN Stack Expert 💻
-
+              Solving complex problems with DSA 💡 | Passionate about building scalable web applications 🚀 
               </p>
             </div>
 
@@ -189,39 +188,50 @@ const Hero = () => {
   <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-60 items-center">
 
     {/* Left - Photo */}
-    <div className="flex justify-center lg:justify-end relative">
-      <div className="absolute -inset-2 rounded-full bg-cyan-500 opacity-30 blur-3xl animate-pulse"></div>
-      <img
-         src={meImage}
-        alt="Paridhi Mittal"
-        className="w-72 h-72 rounded-full object-cover border-4 border-cyan-400 shadow-[0_0_30px_rgba(0,255,255,0.3)] z-10"
-      />
-    </div>
+   <div className="flex justify-center lg:justify-end relative">
+  <div className="absolute inset-0 bg-gradient-to-t from-cyan-500/40 via-transparent to-transparent blur-3xl animate-pulse"></div>
+  <img
+    src="https://i.postimg.cc/MZr8CqsJ/Whats-App-Image-2025-10-07-at-11-57-49-removebg-preview-1.png"
+    alt="Paridhi Mittal"
+    className="w-72 h-72 rounded-full object-cover border-4 border-cyan-400 shadow-[0_0_30px_rgba(0,255,255,0.3)] z-10"
+  />
+</div>
+
 
     {/* Right - About Text */}
-    <div className="space-y-6 lg:text-left text-center">
-      <h2 className="text-5xl font-extrabold text-cyan-400 tracking-tight">
-        About Me
-      </h2>
+ <div className="space-y-6 lg:text-left text-center">
+  <h2 className="text-5xl font-extrabold text-cyan-400 tracking-tight">
+    About Me
+  </h2>
 
-      <p className="text-gray-300 text-lg leading-relaxed">
-        Hi! I'm <span className="text-cyan-400 font-semibold">Paridhi Mittal</span>, a
-        passionate <span className="text-white font-medium">MERN Stack Developer</span> who loves
-        turning ideas into interactive web applications. I enjoy solving
-        problems, exploring new technologies, and bringing creativity into
-        functional designs.
-      </p>
+  <p className="text-gray-300 text-lg leading-relaxed">
+    Hi! I'm <span className="text-cyan-400 font-semibold">Paridhi Mittal</span>, 
+    a passionate <span className="text-white font-medium">MERN Stack Developer</span> 
+    and <span className="text-white font-medium">SDE aspirant</span> who loves transforming 
+    ideas into interactive, high-performance web applications. I aim to build products 
+    that are not just functional but also intuitive and user-centric.
+  </p>
 
-      <p className="text-gray-300 text-lg leading-relaxed">
-        <span className="text-cyan-400 font-semibold">Skills:</span> C++, Python,
-        JavaScript, React, Redux, Node.js, Express, MongoDB, SQL, Git, and
-        Tailwind CSS.
-      </p>
+  <p className="text-gray-300 text-lg leading-relaxed">
+    Along with development, I have a strong foundation in 
+    <span className="text-cyan-400 font-semibold"> Data Structures and Algorithms</span>, 
+    which helps me write efficient, optimized, and scalable code. I enjoy solving 
+    challenging problems, breaking them into smaller parts, and approaching each 
+    with logical precision.
+  </p>
 
-      <p className="text-gray-300 text-lg leading-relaxed italic">
-        Always curious. Always building. Always learning.
-      </p>
-    </div>
+  <p className="text-gray-300 text-lg leading-relaxed">
+    I thrive on learning new technologies, improving system design understanding, 
+    and constantly refining my coding and analytical skills. For me, development 
+    is not just about writing code — it’s about creating solutions that make an impact.
+  </p>
+
+  <p className="text-gray-300 text-lg leading-relaxed italic">
+    A logical thinker, a creative developer, and a learner who believes consistency 
+    turns potential into mastery.
+  </p>
+</div>
+
 
   </div>
 </section>

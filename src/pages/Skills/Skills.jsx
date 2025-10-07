@@ -98,7 +98,7 @@ const SkillsSection = () => {
       skills: [
         { name: "VS Code", icon: <TbBrandVscode className="h-4 w-4 text-[#007ACC]" /> },
         { name: "Redux", icon: <SiRedux className="h-4 w-4 text-[#764ABC]" /> },
-        { name: "Firebase", icon: <SiFirebase className="h-4 w-4 text-[#FFCA28]" /> },
+        { name: "Firebase", icon: <SiFirebase className="h-4 w-4 text-[#FFCA28]" /> }, 
         { name: "Clerk", icon: <SiClerk className="h-4 w-4 text-[#2563EB]" /> },
         { name: "Vercel", icon: <SiVercel className="h-4 w-4 text-white" /> },
         { name: "Vite", icon: <SiVite className="h-4 w-4 text-[#646CFF]" /> },
